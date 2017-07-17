@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository.techdealer" name="Techdealer Repo" version="1.3" provider-name="Techdealer">
+	<extension point="xbmc.addon.repository" name="Techdealer Repo">
+		<info compressed="false">https://raw.githubusercontent.com/techdealer/t-base/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/techdealer/t-base/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/techdealer/t-base/master</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Techdealer Repo</summary>
+		<description>Techdealer XBMC repo</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.teletextopt" name="Teletexto PT" version="0.2.1" provider-name="techdealer">
+  <requires>
+    <import addon="xbmc.python" version="2.20.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="addon.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Teletexto PT</summary>
+    <description>Este addon possibilita a consulta das páginas de teletexto dos canais portugueses.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+</addons>
